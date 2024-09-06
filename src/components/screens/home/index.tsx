@@ -31,7 +31,7 @@ const Index = () => {
         <div
           className="absolute inset-0 hidden xl:block bg-cover bg-center"
           style={{
-            backgroundImage: `url('/images/desktop-background.jpg')`, // Image for screens above 1300px
+            backgroundImage: `url('/images/desktop-background.jpg')`,  
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -39,9 +39,10 @@ const Index = () => {
         ></div>
 
         {/* Content Container */}
-        <div className="relative z-10 text-darkGreyColor flex flex-col items-center lg:items-start text-left max-w-sm lg:max-w-lg pb-20 bottom-12 lg:right-48 xl:right-52 2xl:right-64 2xl:bottom-20">
-          <h1 className="text-3xl lg:text-5xl xl:text-6xl   md:text-4xl font-bold mb-4">Cloud Shapers</h1>
-          <p className="md:text-lg lg:text-xl mb-7">Imagine the future, then build it</p>
+        <div className="relative z-10 text-darkGreyColor flex flex-col items-center lg:items-start text-left max-w-sm lg:max-w-lg pb-20 bottom-12 lg:right-48 xl:right-52 
+        2xl:right-64 2xl:bottom-20  xl-2:right-96 xl-2:bottom-44 ">
+          <h1 className="text-3xl lg:text-5xl xl:text-6xl xl-2:text-7xl   md:text-4xl font-bold mb-4">Cloud Shapers</h1>
+          <p className="md:text-lg lg:text-xl mb-7 xl-2:text-3xl">Imagine the future, then build it</p>
           <ContactFormDialog />
         </div>
       </div>

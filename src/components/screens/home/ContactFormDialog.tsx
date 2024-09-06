@@ -23,7 +23,7 @@ export function ContactFormDialog() {
       <DialogTrigger asChild>
         {/* Center the button */}
         <div className="flex justify-center">
-          <Button className="w-full lg:w-64  max-w-sm bg-darkGreyColor/80 text-background text-center">
+          <Button className="w-full lg:w-64 xl-2:text-3xl xl-2:p-8  max-w-sm bg-darkGreyColor/80 text-background text-center">
             Contact Us
           </Button>
         </div>
@@ -32,7 +32,7 @@ export function ContactFormDialog() {
       {/* Adjusted dialog content */}
       <DialogContent className="sm:max-w-[525px] bg-gradient-to-b from-gradientFrom to-gradientTo p-6 rounded-lg">
         <DialogHeader>
-          <DialogTitle className="text-darkGreyColor text-center text-lg lg:text-3xl ">Contact Us</DialogTitle>
+          <DialogTitle className="text-darkGreyColor text-center text-lg lg:text-3xl  ">Contact Us</DialogTitle>
         </DialogHeader>
 
         <form onSubmit={handleSubmit} className="grid gap-6 py-4">

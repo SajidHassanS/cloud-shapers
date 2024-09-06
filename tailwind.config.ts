@@ -9,6 +9,13 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+
+
+		screens: {
+			'md-lg': '1090px',  // Custom breakpoint for 1090px
+			'xl-2': '1960px',   // Custom breakpoint for 1960px
+		  },
+		  
   		colors: {
   			darkGreyColor: '#2F5767',
 			  gradientFrom: '#4DA6E8', // Add this color
